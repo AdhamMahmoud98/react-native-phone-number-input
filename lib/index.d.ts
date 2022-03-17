@@ -307,4 +307,6 @@ export default class PhoneInput extends Component<
 
 export function isValidNumber(number: string, countryCode: CountryCode ): boolean;
 
-export function getNumberType(number: string) : string
+export function getNumberType(number: string) : string;
+
+export function getNationalNumberAndRegionCode(number: string) : string;
